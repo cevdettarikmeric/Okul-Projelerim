@@ -1,0 +1,196 @@
+body{
+    font-family: monospace;
+}
+.g{
+    width: 1024px;
+    height: 100%;
+}
+.d{
+    background-color: lightseagreen;
+    width: 100%;
+    height: 100px;
+}
+#d{
+    background-color: pink;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    text-align: center;
+    padding: 10px;
+    width: 150px;
+}
+.m{
+    position: relative;
+    left: 600px;
+    top: 50px;
+    display: inline-block;
+}
+.menu{
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    display: inline-block;
+}
+#a{
+    border-color: lightseagreen; border-style: solid;
+    margin-left: 10px;
+    margin-top: 50px;
+    width: 1200px;
+    height: 400px;
+    display: inline-block;
+}
+#a>img{
+    width: 400px;
+    height: 400px;
+    float: left;
+}
+#a>h1{
+    text-align: right;
+    position: relative;
+    top: 100px;
+    left: 100px;
+    float: left;
+    font-size: 50px;
+}
+#b{
+    width: 250px;
+    height: 200px;
+    border-color: lightseagreen;
+    background: #fff;
+    border-style: solid;
+    border-radius: 2px;
+    margin-top: 50px;
+    margin-left: 20px;
+    display: inline-block;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.25);
+}
+#b>img:hover{
+    opacity: 0.75;
+}
+#b>img{
+    width: 250px;
+    height: 200px;
+    float: left;
+    display: block;
+    border-radius: 4px;
+}
+#yazi{
+    margin-left: 70px;
+    float: left;
+    padding: 10px;
+    text-align: left;
+}
+#baslik{
+    font-weight: bold;
+    font-size: 20px;
+}
+#u{
+    border-color: lightseagreen;
+    border-style: solid;
+    margin-top: 30px;
+    margin-left: 50px;
+    height: 700px;
+    width: 500px;
+    display: inline-block;
+}
+#u>img{
+    width: 100px;
+    height: 100px;
+    margin: 30px;
+}
+.yazisal{
+    text-align: center;
+    background-color: rgb(2, 11, 65);
+    position: absolute;
+    left: 70px;
+    top: 970px;
+    width: 180px;
+    height: 50px;
+}
+.basliksal{
+    font-family: sans-serif;
+    position: relative;
+    bottom: 7px;
+    color: white;
+    font-size: 25px;
+}
+#hea{
+    padding: 10px;
+}
+#hair{
+    
+    background-color: rgb(2, 11, 65);
+    position: absolute;
+    left: 650px;
+    top: 970px;
+    width: 180px;
+    height: 50px;
+    z-index: 1;
+}
+#hair>p{
+    font-family: sans-serif;
+    position: relative;
+    bottom: 13px;
+    left: 40px;
+    color: white;
+    font-size: 25px;
+    z-index: 0;
+}
+.m>a:hover{
+    opacity: 0.50;
+}
+.ne{
+    border-color: lightseagreen;
+    background-color: aquamarine;
+    border-style: solid;
+    position: relative;
+    bottom: 355px;
+    left: 30px;
+    height: 300px;
+    width: 500px;
+    display: inline-block;
+}
+.ne>p{
+    padding: 50px;
+}
+.son{
+    background-color: aquamarine;
+    border-color: lightseagreen;
+    border-style: solid;
+    position: relative;
+    bottom: 355px;
+    left: 595px;
+    height: 300px;
+    width: 500px;
+    display: inline-block;
+}
+#sonsal{
+    font-size: 20px;
+    position: relative;
+    bottom: 200px;
+    left: 210px;
+}
+#footer {
+    background: #4c8f96;
+    border-top: 1px solid #9bd9e0;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    bottom: 350px;
+}
+#footer div .connect {
+    background: #387a82;
+    float: right;
+    height: 18px;
+    margin: 0 20px 0 150px;
+    padding: 22px 20px;
+    overflow: hidden;
+    width: 144px;
+}
+#footer > div {
+    margin: 0 auto;
+    padding: 30px 0 28px;
+    overflow: hidden;
+    text-align: center;
+    width: 960px;
+}

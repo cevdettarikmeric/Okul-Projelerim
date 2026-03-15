@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>uygulama2</title>
+</head>
+<body>
+    <h1>
+        <form name="kayıt" action="(0)mekan.html">
+            <fieldset>
+                <legend>Üyelik Bilgileri</legend>
+                    <label>Ad Soyad : </label>
+                    <input type="text" name="adsoyad" required="required"><br/><br/>
+                    <label>E-mail</label>
+                    <input type="email" name="mail" required="required"><br/><br/>
+                    <label>Doğum Tarihi :</label>
+                    <input type="date" name="dogumtarihi" required="required" min="2025-06-06"><br/><br/>
+                    <input type="submit" value="Gönder">
+                    <input type="reset" value="Temizle">
+            </fieldset>
+        </form>
+        <form name="yorum" action="(0)mekan.html">
+            <fieldset>
+                <legend>Yorum Gönder</legend>
+                <label>E-Posta :</label>
+                <input type="text" tabindex="1" required="required" placeholder="E-Postanızı giriniz">
+                <label>Yorum :</label>
+                <textarea rows="3" cols="20" tabindex="2"></textarea><br/><br/>
+                <input type="submit" value="Gönder">
+                <input type="reset" value="Temizle">
+            </fieldset>
+        </form>
+    </h1>
+</body>
+</html>

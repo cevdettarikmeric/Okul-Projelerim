@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anasayfa</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <form>
+        <input type="number" placeholder="Sayı Giriniz..." onkeyup="kareAl(this)">
+        <p id="sonuc">0</p>
+    </form>
+
+    <br><br><br>
+
+    <form>
+        <input type="number" id="sayi1" placeholder="1.Sayıyı Giriniz...">
+        <input type="number" id="sayi2" placeholder="2.Sayıyı Giriniz...">
+        <input type="button" value="Hesapla" onclick="hesapla(this)">
+        <label id="toplam">Toplam: 0</label>
+        <label id="fark">Farkı: 0</label>
+        <label id="carp">Çarpım: 0</label>
+    </form>
+
+    <br><br><br>
+
+    <input type="number" id="sayi4" placeholder="1.Sayıyı Giriniz...">
+    <input type="number" id="sayi5" placeholder="2.Sayıyı Giriniz...">
+    <input type="number" id="sayi6" placeholder="3.Sayıyı Giriniz...">
+    <input type="button" value="Hesapla" onclick="islem(this)">
+
+    <br><br><br>
+
+    <div id="genelCerceve">
+        <div id="mesajGirisi">
+            <img src="profile.jfif">
+            <input type="text" id="mesaj" placeholder="Mesajınızı giriniz.">
+            <input type="button" value="Gönder" onclick="mesajGonder()">
+        </div>
+        <hr>
+        <div id="mesajKutulari">
+            <!-- Buraya innerHTML komutu ile kodlar eklenecek -->
+        </div>
+       </div>
+</body>
+</html>

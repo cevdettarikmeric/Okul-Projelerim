@@ -1,0 +1,58 @@
+p{
+    background-color: black;
+    font-size: 20px;
+    color: bisque;
+}
+img{
+    width: 400px;
+    height: 200px;
+}
+body{
+background-color:skyblue;
+}
+li{
+color:black;
+font-size: 16px;
+text-decoration: underline;
+}
+#i{
+width:220px;
+height:130px;
+}
+#d{
+    border-style: solid;
+    border-color: gray;
+    width: 20px;
+    height: 20px;
+    background-color: orange;
+    text-align: center;
+}
+#resim{
+    width:220px;
+    height:130px;
+    border-radius: 100px;
+}
+#baslik{
+    margin-left: 65px;
+}
+#kutu1{ 
+    background-color: tomato; 
+}
+#kutu2{ 
+    background-color: teal; 
+}
+#kutu3{ 
+    background-color: purple; 
+}
+#b{
+    width:35px; height:110px;
+    font-size:30px; text-align: center;
+}
+.galeri{
+width: 160px;
+height: 90px;
+border-color: 2px;
+border-style: solid;
+border-color:darkorange;
+border-radius: 10px;
+}

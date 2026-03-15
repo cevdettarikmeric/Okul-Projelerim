@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript" src="1.js"></script>
+    <link rel="stylesheet" href="1.css">
+</head>
+<body>
+    <h1>SELAMUN ALEYKUM WERAHMATULLAHIVEBARAKATUH BRO 
+    <br>RAMADAN KAREEEM</h1>
+    <button type="button" onclick="darkMode()">Gece Modu</button>
+    <button type="button" onclick="lightMode()">Gündüz Modu</button>
+    <input type="button" onclick="buyult()" value="Büyük">
+    <input type="button" onclick="orta()" value="Orta">
+    <input type="button" onclick="kucult()" value="Küçük">
+    <img src="zaytnot.jfif" id="resim">
+    <br><br><br>
+    <div id="galeri">
+        <img src="panky.jfif" id="resim1">
+        <img src="panzei.jfif" id="resim2">
+        <img src="yoh.jfif" id="resim3">
+    </div>
+    <div>
+        <input type="button" onmousemove="resmiGoster1()" value="Resim 1">
+        <input type="button" onmousemove="resmiGoster2()" value="Resim 2">
+        <input type="button" onmousemove="resmiGoster3()" value="Resim 3">
+    </div>
+    <br><br><br>
+    <div id="cerceve"> </div>
+    <form>
+        <input type="radio" name="secim" onclick="kenarYuvarla('0px')" value="0">
+        <label for="male">0 Piksel</label><br>
+        <input type="radio" name="secim" onclick="kenarYuvarla('10px')" value="10">
+        <label for="male">10 Piksel</label><br>
+        <input type="radio" name="secim" onclick="kenarYuvarla('25px')" value="25">
+        <label for="male">25 Piksel</label><br>
+        <input type="radio" name="secim" onclick="kenarYuvarla('50px')" value="50">
+        <label for="male">50 Piksel</label><br>
+    </form>
+    <h1>Parametresiz <span id="ok">></span></h1>
+    <div id="cerceve2"> </div>
+    <form>
+        <input type="radio" name="secim1" onclick="kenarYuvarla0()">
+        <label for="male">0 Piksel</label><br>
+        <input type="radio" name="secim1" onclick="kenarYuvarla10()">
+        <label for="male">10 Piksel</label><br>
+        <input type="radio" name="secim1" onclick="kenarYuvarla25()">
+        <label for="male">25 Piksel</label><br>
+        <input type="radio" name="secim1" onclick="kenarYuvarla50()">
+        <label for="male">50 Piksel</label><br>
+    </form>
+</body>
+</html>

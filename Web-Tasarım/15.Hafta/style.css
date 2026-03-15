@@ -1,0 +1,63 @@
+body { background-color: #a8dadc; color:white; }
+@media screen and (min-width: 600px) {
+  body{background-color: #e76f51;}
+}
+@media screen and (min-width: 800px) {
+  body{background-color: #457b9d;}  
+}
+@media screen and (min-width: 1200px) {
+  body{background-color: #e9c46a;}  
+}
+.g1 {
+  width: 20%;
+  background: linear-gradient(to right, skyblue, #23538a);
+}
+.g2 {
+  width: 30%;
+  background: linear-gradient(to left, red, black, green);
+}
+.g3 {
+  width: 40%;
+  background: linear-gradient(
+    to right top,
+    #0cbaba,
+    #380036,
+    darksalmon,
+    white,
+    black
+  );
+}
+.g4 {
+  width: 50%;
+  background: linear-gradient(to top, red, orange, yellow, green, blue, purple);
+}
+.g5 {
+  width: 60%;
+  background: linear-gradient(to top, cyan, pink, white, pink, cyan);
+}
+div {
+  height: 100px;
+  color: white;
+  font-size: 20px;
+  border-radius: 10px;
+}
+#g1:hover {
+  width: 1000px;
+  cursor: pointer;
+  transition-property: width;
+  transition-duration: 0.5s;
+  transition-delay: 0.1s;
+}
+#g2{text-align: center;}
+@media screen and (min-device-width:215px)
+ {
+ #kR{display: inline;}
+ #bR{display:none;}
+ }
+@media screen and (min-device-width:750px)
+ {
+ #bR{display:inline;}
+ #kR{display: none;}
+ }
+#bR{width: 300px;height: 300px;}
+#kR{width: 150px;height: 150px;}

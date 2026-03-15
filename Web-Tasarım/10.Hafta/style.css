@@ -1,0 +1,46 @@
+icerik,p{
+color:gray;
+}
+body{
+background-color:aqua;
+}
+p,b,#u{ color:purple; font-size:16px; width: 300px; }
+
+
+div{ background-color:darkcyan; border:2px solid; width:400px ; }
+div>img{ width: 100px; height:100px; }
+div>b{ color:white; }
+p>b{
+font-size:30px;
+}
+
+
+div>h3{
+color:red;
+background-color: orange;
+}
+
+
+#d{ background-color:seagreen; border:2px solid; width:400px ; }
+div>img{ width: 100px; height:100px; }
+div b{ color:white; }
+
+
+a:link{color: orange;font-size: 22px;}
+a:visited{color: gray;}
+a:hover{background-color: white;cursor: hand;}
+a:active{font-size: 30px;}
+
+
+#mail:focus{background-color: tomato;}
+#sifre:focus{background-color: green;}
+
+
+#j{
+    width: 300px;
+    background-color: bisque;
+    color: aqua;
+    border-radius: 5px;
+}
+#p::first-letter{font-size: 20px;font-weight: bold;margin-left: 10px;}
+#p::first-line{background-color: orange;color: black;}

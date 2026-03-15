@@ -1,0 +1,36 @@
+#konteynır{
+    text-align: center;
+}
+.furm{
+    padding: 24px 16px;
+    background: #f8f9fa;
+    border-radius: 8px;
+    margin-bottom: 32px;
+    border-color: black;
+    border-style: solid;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.07);
+    transition: box-shadow 0.2s;
+}
+.furm:hover {
+    box-shadow: 0 4px 24px rgba(0,0,0,0.13);
+}
+.furm label {
+    font-size: 1.08rem;
+    font-weight: 500;
+    margin-bottom: 6px;
+}
+.furm .form-control, .furm .form-check-input {
+    margin-bottom: 12px;
+}
+.furm .form-check-label {
+    margin-left: 4px;
+}
+.furm .btn, .furm button[type="submit"] {
+    margin-top: 10px;
+    border-radius: 6px;
+    font-weight: 600;
+}
+.sigma{
+    position: absolute;
+    top: 4000px;
+}

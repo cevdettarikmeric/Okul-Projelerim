@@ -1,0 +1,68 @@
+.d{
+    background-color: lightseagreen;
+    width: 100%;
+    height: 100px;
+}
+.m{
+    position: relative;
+    left: 600px;
+    top: 50px;
+}
+.m>a:hover{
+    opacity: 0.50;
+}
+#d{
+    background-color: pink;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    text-align: center;
+    padding: 10px;
+    width: 200px;
+}
+.menu{
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+#footer {
+    background: #4c8f96;
+    border-top: 1px solid #9bd9e0;
+    margin: 0;
+    padding: 0;
+}
+#footer div .connect {
+    background: #387a82;
+    float: right;
+    height: 18px;
+    margin: 0 20px 0 150px;
+    padding: 22px 20px;
+    overflow: hidden;
+    width: 144px;
+}
+#footer > div {
+    margin: 0 auto;
+    padding: 30px 0 28px;
+    overflow: hidden;
+    text-align: center;
+    width: 960px;
+}
+.ana{
+    position: relative;
+    top: 70px;
+    width: 1100px;
+    height: 1400px;
+    margin: auto;
+}
+.newskutu{
+    background-color: white;
+    width: 300px;
+    height: 600px;
+    border: solid;
+    border-color: teal;
+    display: inline-block;
+    position: relative;
+    left: 800px;
+    bottom: 500px;
+    text-align: center;
+}
